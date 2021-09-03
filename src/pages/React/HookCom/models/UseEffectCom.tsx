@@ -36,12 +36,12 @@ const useEffectCom: React.FC<PropsType> = props => {
     }, [])
 
     return (
-        <>
+        <div>
             <h4>Effect 优化 跳出页面清除定时器</h4>
             <p>{count}</p>
             <button onClick={() => { setCount(count + 1) }} >click</button>
             <button onClick={() => { setName('bob.zhang') }} >click</button>
-        </>
+        </div>
     )
 }
 

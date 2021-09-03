@@ -14,7 +14,6 @@ const inputValueHook: React.FC<PropsType> = props => {
     }
     const text = useInputvalue('test')
     useEffect(()=>{
-        console.log(text);
     },[text])
     return (
         <div>

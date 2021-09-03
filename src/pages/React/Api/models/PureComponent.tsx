@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-09-01 18:38:28
+ * @LastEditTime: 2021-09-01 19:15:21
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \new-react-master\src\pages\React\Api\models\PureComponent.tsx
+ */
 import React from 'react'
 
 class ApiPureComponent extends React.PureComponent {
